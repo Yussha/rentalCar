@@ -10,7 +10,7 @@ import Website from "./components/Website";
 import { carData } from "./data/carData";
 
 /*React Router */
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [dataCars, setDataCars] = useState(carData);
@@ -47,37 +47,33 @@ function App() {
 
 
   return (
-    <Router basename="/rentalCar">
-      <main >
-        <Routes>
-          <Route
-            path="*"
-            element={
-              <Website
-                scroll={scroll}
-                activeLink={activeLink}
-                setActiveLink={setActiveLink}
-                setModalVideo={setModalVideo}
-                dataCars={dataCars}
-                setShowCarDetails={setShowCarDetails}
-                modalVideo={modalVideo}
-                showCarDetails={showCarDetails}
-                setShowForm={setShowForm}
-                showForm={showForm}
-                setBookingInputs={setBookingInputs}
-                bookingInputs={bookingInputs}
-                setBookingData={setBookingData}
-                setShowLogin={setShowLogin}
-                showLogin={showLogin}
-              />
-            }
-          />
+    <main className="app">
+      <Routes>
+        <Route
+          path="*"
+          element={
+            <Website
+              scroll={scroll}
+              activeLink={activeLink}
+              setActiveLink={setActiveLink}
+              setModalVideo={setModalVideo}
+              dataCars={dataCars}
+              setShowCarDetails={setShowCarDetails}
+              modalVideo={modalVideo}
+              showCarDetails={showCarDetails}
+              setShowForm={setShowForm}
+              showForm={showForm}
+              setBookingInputs={setBookingInputs}
+              bookingInputs={bookingInputs}
+              setBookingData={setBookingData}
+              setShowLogin={setShowLogin}
+              showLogin={showLogin}
+            />
+          }
+        />
 
-        </Routes>
-      </main>
-
-    </Router>
-
+      </Routes>
+    </main>
   );
 }
 
