@@ -22,7 +22,7 @@ export default function Navbar({
       >
         <div className="container-fluid  pt-xl-2 pb-xl-2 ps-xl-5 pe-xl-5">
           <Link
-            to="/"
+            to="/rentalCar"
             onClick={() => setActiveLink("home")}
             className={`${styles.customNavbarLogo}  navbar-brand fs-4`}
           >
@@ -45,7 +45,7 @@ export default function Navbar({
             <ul className="navbar-nav d-xl-flex gap-xl-3">
               <li className="nav-item">
                 <Link
-                  to="/"
+                  to="/rentalCar"
                   onClick={() => setActiveLink("home")}
                   className={`${styles.customNavbarink} ${activeLink === "home" ? styles.active : ""
                     }  nav-link fw-bold`}

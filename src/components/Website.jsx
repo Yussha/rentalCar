@@ -44,7 +44,7 @@ export default function Website({
       />
       <Routes>
         <Route
-          path="/"
+          path="/rentalCar"
           element={
             <ScrollToTopOnNavigate>
               <Home
