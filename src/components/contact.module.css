@@ -1,0 +1,30 @@
+.customContact {
+  background-color: #1b1b1b;
+  height: auto;
+  padding: 100px 0px;
+}
+
+.customContactContents {
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.customContactIconContainer {
+  background-color: #f5b754;
+  border-radius: 50%;
+}
+
+.customContactIcon {
+  color: #1b1b1b;
+}
+
+.customContactTitle {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* @media (max-width: 575px) {
+  .customContact {
+   width: 100px;
+  }
+} */

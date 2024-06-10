@@ -1,0 +1,49 @@
+.customNavbar {
+  transition: 0.3s ease-in-out;
+  background-color: #222;
+}
+
+.customNavbarLogo {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff !important;
+}
+
+.menuIcon {
+  color: #fff !important;
+}
+
+.customNavbarink {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff !important;
+}
+
+.active {
+  color: #f5b754 !important;
+}
+
+.customNavbarink:hover {
+  color: #f5b754 !important;
+}
+
+.customNavbarScroll {
+  transition: 0.3s ease-in-out;
+}
+
+.loginBtn {
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  border: none;
+  color: #fff !important;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.loginBtn:hover {
+  color: #f5b754 !important;
+}

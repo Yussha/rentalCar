@@ -1,0 +1,158 @@
+.customdetailspage {
+  background-color: #1b1b1b;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.customdetailspageBanner {
+  width: 100%;
+  height: auto;
+}
+
+.customdetailspageImg {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.customdetailspageTitle {
+  top: 200px;
+  left: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+
+.customOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.customdetailsInfo {
+  margin-top: 100px;
+}
+
+.customTitle {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.customDetails {
+  color: #999;
+  width: 55%;
+  text-align: justify;
+  font-size: 0.9rem;
+  line-height: 28px;
+}
+
+.customtList {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.customtList li {
+  color: #999;
+}
+
+.customListIcon {
+  color: #f5b754;
+  background-color: rgb(34, 34, 34);
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.customInfoCard {
+  width: 28%;
+  border-radius: 20px;
+  height: auto;
+  /*  */
+}
+
+.customPrice {
+  background-color: #f5b754;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 18vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.customInfos {
+  background-color: #222;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px;
+  color: #999;
+}
+
+.customInfoIcon {
+  background-color: #333;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.customBtn {
+  background: #f5b754;
+  padding: 14px 21px;
+  color: #1b1b1b;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.customBtn:hover {
+  background-color: #fff;
+}
+
+
+@media (min-width: 576px) {
+  .customInfoCard {
+    width: 520px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .customDetails {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .customInfoCard {
+    width: 28%;
+    position: absolute;
+    top: 314px;
+    right: 100px;
+  }
+
+  .customDetails {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .customInfoCard {
+    width: 28%;
+    position: absolute;
+    top: 370px;
+    right: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .customInfoCard {
+    width: 28%;
+    position: absolute;
+    top: 432px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .customInfoCard {
+    width: 520px;
+
+  }
+}

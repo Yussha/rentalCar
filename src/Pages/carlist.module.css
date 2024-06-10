@@ -1,0 +1,61 @@
+.customCarPage {
+    background-color: #1b1b1b;
+    height: auto;
+    padding: 120px 0px;
+    width: auto;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+.contentCon {
+    width: 80%;
+    box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.75);
+}
+
+.imgContainer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carImg {
+    width: 100%;
+}
+
+.specsCon {
+    list-style: none;
+}
+
+.specsCon li span {
+    color: #f5b754;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.carBtn {
+    background: #f5b754;
+    padding: 14px 21px;
+    color: #1b1b1b;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid;
+}
+
+@media (min-width: 576px) {
+    .contentCon {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .contentCon {
+        width: fit-content;
+
+    }
+}

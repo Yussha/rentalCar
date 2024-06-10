@@ -1,0 +1,56 @@
+.customServices {
+  background-color: #1b1b1b;
+  height: auto;
+  padding: 120px 0px;
+}
+
+.customServicesSubTitle {
+  color: #f5b754;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 8px;
+}
+
+.customServicesTitle {
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+
+.customServicesCard {
+  background-color: #222;
+  height: 90%;
+  width: 30%;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.numCurve {
+  padding: 15px;
+  border-radius: 0 40px 0 0;
+  background: #1b1b1b;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #222;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #222;
+}
+
+.servicesCardTitle {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.servicesCardDescription {
+  color: #999;
+  text-align: justify;
+}

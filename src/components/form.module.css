@@ -1,0 +1,131 @@
+.customForm {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130vh;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+}
+
+.customHeader {
+  background-color: #f5b754;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 25px 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.customFormContent {
+  padding: 60px 40px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.customLabel {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.customInput {
+  padding: 18.5px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #222;
+  outline: none;
+  color: #999;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  margin-bottom: 20px;
+  color: red;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.customDropdownBtn {
+  padding: 18.5px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #222;
+  outline: none;
+  color: #999;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.customDropdownMenu {
+  background-color: #222 !important;
+  width: 100%;
+}
+
+.customDropdownMenu li {
+  padding: 8px 0px;
+}
+
+.customDropdownMenu li:hover {
+  background-color: #f5b754 !important;
+}
+
+.customDropdownMenu li a:hover {
+  color: #222 !important;
+  background-color: #f5b754 !important;
+}
+
+.customTextArea {
+  padding: 18.5px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #222;
+  outline: none;
+  color: #999;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.customBtn {
+  background: #f5b754;
+  width: 100%;
+  padding: 14px 21px;
+  color: #1b1b1b;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.customBtn:hover {
+  background-color: #fff;
+}
+
+
+@media (min-width: 576px) {
+  .customForm {
+    width: 80vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .customForm {
+    width: 100vh;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .customForm {
+    width: 130vh;
+  }
+}
+
+@media (max-width: 575px) {
+  .customForm {
+    width: 78vh;
+  }
+}

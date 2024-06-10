@@ -1,0 +1,10 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: #1b1b1b;
+  height: auto;
+  width: fit-content;
+  overflow: hidden;
+}

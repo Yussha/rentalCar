@@ -1,0 +1,67 @@
+.customAbout {
+  background-color: #1b1b1b;
+  height: 100vh;
+  padding: 120px 0px;
+}
+
+.customAboutTitle {
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  width: 90%;
+}
+
+.customAboutDescription {
+  color: #999;
+  text-align: justify;
+  line-height: 28px;
+}
+
+.customAboutList {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.customAboutList li {
+  color: #999;
+}
+
+.customListIcon {
+  color: #f5b754;
+  background-color: rgb(34, 34, 34);
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.customAboutImg {
+  height: 70vh;
+}
+
+.customAboutImg img {
+  transition: transform 0.3s ease;
+}
+
+.customAboutImg img:hover {
+  transform: scale(0.9);
+}
+
+@media (min-width: 576px) { 
+  .customAbout {
+    height: auto;
+    padding: 50px 0px;
+  }
+ }
+
+ @media (min-width: 992px) { 
+  .customAbout {
+    height: auto;
+    padding: 120px 0px;
+  }
+ }
+
+ @media (max-width: 575px) { 
+  .customAbout {
+    height: auto;
+    padding: 40px 0px;
+  }
+ }

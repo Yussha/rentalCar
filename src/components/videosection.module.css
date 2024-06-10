@@ -1,0 +1,36 @@
+.customVideoSection {
+  height: 50vh;
+  background-image: url("https://duruthemes.com/demo/html/renax/dark/img/slider/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.customOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.customVideoSubTitle {
+  color: #f5b754;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 8px;
+}
+
+.customVideoTitle {
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+
+.customPlayBtn {
+  color: #fff;
+  border: 1px solid #f5b754;
+  border-radius: 50%;
+}
+
+.customPlayBtn:hover {
+  color: #f5b754;
+}
+

@@ -1,0 +1,92 @@
+.customDisplayCars {
+  background-color: #1b1b1b;
+  height: 120vh;
+  padding: 120px 0px;
+}
+
+.customDisplayCarsSubTitle {
+  color: #f5b754;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 8px;
+}
+
+.customDisplayCarsTitle {
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+
+.customDisplayProductSwiper {
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.customSwiperSlide,
+.customSwiperSlideContent {
+  border-radius: 10px;
+}
+
+.customDPimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.customDisplayProductInfo {
+  background-color: #222;
+  width: 93%;
+  height: 115px;
+  bottom: -60px;
+  left: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.customDPname {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.customDetail {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.customDPbtn {
+  background: #f5b754;
+  padding: 14px 21px;
+  color: #1b1b1b;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.customDPbtn:hover {
+  background-color: #fff;
+}
+
+.customDPprice {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #f5b754;
+}
+
+@media (min-width: 992px) {
+  .customDisplayCars {
+    background-color: #1b1b1b;
+    height: auto;
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .customDisplayCars {
+    background-color: #1b1b1b;
+    height: auto;
+    padding-top: 100px;
+  }
+}

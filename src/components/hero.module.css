@@ -1,0 +1,63 @@
+.customHero {
+  height: 100vh;
+  background-image: url("https://duruthemes.com/demo/html/renax/dark/img/slider/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.customOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.customHeroContent {
+  top: 230px;
+}
+
+.customHeroTitle {
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+
+.customHeroSubTitle {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.customHeroBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  height: auto;
+  padding: 14px 42px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 14px;
+  transition: border-color 300ms ease, transform 300ms ease,
+    background-color 300ms ease, color 300ms ease;
+}
+
+.customHeroBtn:hover {
+  border: 1px solid #f5b754;
+  background-color: #f5b754;
+  color: #1b1b1b;
+}
+
+@media (min-width: 768px) {
+  .customHeroContent {
+    top: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .customHeroContent {
+    top: 280px;
+    
+  }
+}
+

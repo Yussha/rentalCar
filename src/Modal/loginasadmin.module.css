@@ -1,0 +1,43 @@
+.customForm {
+  right: 53px;
+  top: 50px;
+  width: 20%;
+  height: auto;
+  background-color: #1b1b1b;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: -1px -1px 23px -6px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -1px -1px 23px -6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -1px -1px 23px -6px rgba(0, 0, 0, 0.61);
+  transition: 0.3s ease-in-out;
+  padding: 15px;
+}
+
+.customTitle {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.customInput {
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  background-color: #222;
+  outline: none;
+  color: #999;
+}
+
+.customBtn {
+  background: #f5b754;
+  padding: 8px;
+  color: #1b1b1b;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid;
+  width: 40%;
+}
+
+.customBtn:hover {
+  background-color: #fff;
+}
