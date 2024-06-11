@@ -29,6 +29,29 @@
   font-size: 14px;
   border: 1px solid;
 }
+
 .custombtn:hover {
   background-color: #fff;
+}
+
+
+@media (min-width: 576px) {
+  .customConmessage {
+    width: 90%;
+
+  }
+}
+
+@media (max-width: 575px) {
+  .customConmessage {
+    width: 90%;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .customConmessage {
+    width: 70%;
+
+  }
 }

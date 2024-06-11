@@ -113,6 +113,10 @@
   .customInput {
     width: 200%;
   }
+
+  .customDropdownMenu {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 575px) {
@@ -125,6 +129,10 @@
   }
 
   .customDropdownBtn {
+    width: fit-content;
+  }
+
+  .customDropdownMenu {
     width: fit-content;
   }
 }

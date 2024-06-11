@@ -220,10 +220,11 @@ export default function Form({
                   ? "Drop Off Location"
                   : bookingInputs.dropOffLocation}
               </button>
-              <ul className={`${styles.customDropdownMenu} dropdown-menu`}>
+              <ul className={`${styles.customDropdownMenu} dropdown-menu `}>
                 {locations.map((location) => {
                   return (
                     <li
+
                       key={location.id}
                       onClick={() =>
                         handleDropDownChange("dropOffLocation", location)
