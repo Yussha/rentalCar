@@ -107,25 +107,49 @@
 
 @media (min-width: 576px) {
   .customForm {
-    width: 80vh;
+    width: 80%;
   }
-}
 
-@media (min-width: 992px) {
-  .customForm {
-    width: 100vh;
-  }
-}
-
-
-@media (min-width: 1200px) {
-  .customForm {
-    width: 130vh;
+  .customInput {
+    width: 200%;
   }
 }
 
 @media (max-width: 575px) {
   .customForm {
-    width: 78vh;
+    width: 80%;
+  }
+
+  .customInput {
+    width: 200%;
+  }
+
+  .customDropdownBtn {
+    width: fit-content;
   }
 }
+
+@media (min-width: 992px) {
+  .customForm {
+    width: 80%;
+  }
+
+  .customInput {
+    width: 100%;
+  }
+}
+
+/* 
+
+
+@media (min-width: 1200px) {
+  .customForm {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  .customForm {
+    width: 85%;
+  }
+} */

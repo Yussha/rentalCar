@@ -134,9 +134,9 @@ export default function Form({
       <form
         onSubmit={handleSubmit}
         action=""
-        className={`${styles.customFormContent} d-flex flex-column gap-3`}
+        className={`${styles.customFormContent} d-flex flex-column gap-3 `}
       >
-        <div className="d-flex gap-5">
+        <div className="d-flex gap-5 flex-column flex-lg-row">
           <div className="d-flex flex-column w-50">
             <label className={`${styles.customLabel}`} htmlFor="fullname">
               Full Name*

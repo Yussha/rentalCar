@@ -107,7 +107,7 @@
 
 @media (min-width: 576px) {
   .customInfoCard {
-    width: 520px;
+    width: 90%;
 
   }
 }
@@ -152,7 +152,7 @@
 
 @media (max-width: 575px) {
   .customInfoCard {
-    width: 520px;
+    width: 80%;
 
   }
 }
