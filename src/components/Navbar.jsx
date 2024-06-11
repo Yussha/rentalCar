@@ -22,7 +22,7 @@ export default function Navbar({
       >
         <div className="container-fluid  pt-xl-2 pb-xl-2 ps-xl-5 pe-xl-5">
           <Link
-            to="/rentalCar"
+            to="/"
             onClick={() => setActiveLink("home")}
             className={`${styles.customNavbarLogo}  navbar-brand fs-4`}
           >
@@ -45,7 +45,7 @@ export default function Navbar({
             <ul className="navbar-nav d-xl-flex gap-xl-3">
               <li className="nav-item">
                 <Link
-                  to="/rentalCar"
+                  to="/"
                   onClick={() => setActiveLink("home")}
                   className={`${styles.customNavbarink} ${activeLink === "home" ? styles.active : ""
                     }  nav-link fw-bold`}
@@ -55,7 +55,7 @@ export default function Navbar({
               </li>
               <li className="nav-item">
                 <Link
-                  to="aboutpage"
+                  to="/aboutpage"
                   onClick={() => setActiveLink("about")}
                   className={`${styles.customNavbarink} ${activeLink === "about" ? styles.active : ""
                     } nav-link fw-bold`}
@@ -65,7 +65,7 @@ export default function Navbar({
               </li>
               <li className="nav-item">
                 <Link
-                  to="cars"
+                  to="/cars"
                   onClick={() => setActiveLink("cars")}
                   className={`${styles.customNavbarink} ${activeLink === "cars" ? styles.active : ""
                     } nav-link fw-bold`}
@@ -75,7 +75,7 @@ export default function Navbar({
               </li>
               <li className="nav-item">
                 <Link
-                  to="servicespage"
+                  to="/servicespage"
                   onClick={() => setActiveLink("services")}
                   className={`${styles.customNavbarink} ${activeLink === "services" ? styles.active : ""
                     } nav-link fw-bold`}

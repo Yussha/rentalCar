@@ -44,7 +44,7 @@ export default function Website({
       />
       <Routes>
         <Route
-          path="/rentalCar"
+          exact path="/"
           element={
             <ScrollToTopOnNavigate>
               <Home
@@ -58,7 +58,7 @@ export default function Website({
           }
         />
         <Route
-          path="aboutpage"
+          path="/aboutpage"
           element={
             <ScrollToTopOnNavigate>
               <AboutPage />
@@ -66,7 +66,7 @@ export default function Website({
           }
         />
         <Route
-          path="servicespage"
+          path="/servicespage"
           element={
             <ScrollToTopOnNavigate>
               <ServicesPage />
@@ -74,7 +74,7 @@ export default function Website({
           }
         />
         <Route
-          path="cars"
+          path="/cars"
           element={
             <ScrollToTopOnNavigate>
               <Cars dataCars={dataCars} setShowCarDetails={setShowCarDetails} setActiveLink={setActiveLink} />
@@ -84,7 +84,7 @@ export default function Website({
 
 
         <Route
-          path="detailspage"
+          path="/detailspage"
           element={
             <ScrollToTopOnNavigate>
               <DetailsPage
